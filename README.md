@@ -18,11 +18,10 @@ Step 4:
 End the program
 
 ## Program:
-'''
+```
 #Program to find the inverse of a matrix.
 #Developed by:  Jeffrin dino g.v
 #RegisterNumber: 212225040150
-```
 import numpy as np
 A=np.array([
     [1,0,3],
@@ -30,9 +29,10 @@ A=np.array([
     [2,3,-1]])
 soln=np.linalg.inv(A)
 print(soln)
+```
 ## Output:
 <img width="1343" height="992" alt="image" src="https://github.com/user-attachments/assets/26d60a14-def9-42b1-aa09-31d2f1df93cb" />
-```
+
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
 
